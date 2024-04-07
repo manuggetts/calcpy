@@ -12,22 +12,26 @@ Este é um projeto simples de uma calculadora de média feita em Python. A calcu
 1. Clone o repositório:
 
 ```bash
-git clone [https://github.com/manuggetts/calcpy.git](https://github.com/manuggetts/calcpy)
+git clone https://github.com/manuggetts/calcpy.git
 ```
 
 2. Navegue até o diretório do projeto:
-
 ```bash
-cd calc_media
+cd calcpy
 ```
 
 3. Execute o script Python:
-
 ```bash
-  python calc_media
+python calc_media.py
 ```
 
 4. Siga as instruções no terminal para inserir os valores e calcular a média.
+
+## Exemplo de Uso
+```bash
+from calc_media import calc_media
+calc_media()
+```
 
 ## Contribuindo
 
@@ -36,4 +40,3 @@ Contribuições são bem-vindas! Se você encontrar algum problema ou tiver algu
 ## Licença
 
 Este projeto está licenciado sob a [MIT License](LICENSE).
-
